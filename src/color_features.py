@@ -1,7 +1,7 @@
 from skimage import color
 import numpy as np
 
-def extract_color_features_skimage(img_rgb, mask):
+def extract_color_features(img_rgb, mask):
     """
     Extract colour features from a skin lesion image.
     
